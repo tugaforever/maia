@@ -3,16 +3,16 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1004206704994566164", ""], 
-  mongodbUri : "",
+  ownerID: ["222913560634720256", ""], 
+  mongodbUri : "mongodb+srv://tuga:<db_password>@eb.fh2mrgr.mongodb.net/?retryWrites=true&w=majority&appName=eb",
   spotifyClientId : "",
   spotifyClientSecret : "",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
-  activityName: "YouTube Music", 
+  activityName: "Spotify", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
+  SupportServer: "",
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
